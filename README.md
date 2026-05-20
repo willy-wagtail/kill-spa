@@ -43,8 +43,9 @@ Only `style.css` is served to browsers. The `input.css` and `tailwindcss` binary
 ## Upgrading Tailwind CSS
 
 1. Check the [latest release](https://github.com/tailwindlabs/tailwindcss/releases/latest) on GitHub
-2. Download the new macOS ARM64 binary:
+2. Download the standalone binary for your platform from the release assets (e.g., `tailwindcss-macos-arm64`, `tailwindcss-linux-x64`, `tailwindcss-windows-x64.exe`):
    ```bash
+   # macOS ARM64 example
    curl -L -o tailwindcss https://github.com/tailwindlabs/tailwindcss/releases/download/vX.Y.Z/tailwindcss-macos-arm64
    chmod +x tailwindcss
    ```
